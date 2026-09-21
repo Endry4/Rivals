@@ -23,21 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Hood Rivals", // required by Discord API, not shown in the client
+        name: "Hood Rivals On Roblox", // required by Discord API, not shown in the client
         state: "Hood Rivals Dicord",     // this is what people actually see
-        type: 1,               // DiscordRichPresence discordPresence;
-    memset(&discordPresence, 0, sizeof(discordPresence));
-    discordPresence.state = "Playing Solo";
-    discordPresence.details = "Competitive";
-    discordPresence.startTimestamp = 1507665886;
-    discordPresence.endTimestamp = 1507665886;
-    discordPresence.largeImageText = "https://share.icloud.com/photos/0d5gWVIGLxU88ZFr4pFuPlCMQ";
-    discordPresence.smallImageText = "Rogue - Level 100";
-    discordPresence.partyId = "ae488379-351d-4a4f-ad32-2b9b01c91657";
-    discordPresence.partySize = 1;
-    discordPresence.partyMax = 1;
-    discordPresence.joinSecret = "MTI4NzM0OjFpMmhuZToxMjMxMjM= ";
-    Discord_UpdatePresence(&discordPresence);
+        type: 1,               //
 }
       },
     ],
