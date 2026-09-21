@@ -24,10 +24,8 @@ export const botConfig = {
     activities: [
       {
         name: "Hood Rivals On Roblox", // required by Discord API, not shown in the client
-        state: "Hood Rivals Dicord",     // this is what people actually see
-        type: 1,               //
-      }
-}
+        state: "Working For Hood Rivals",     // this is what people actually see
+        type: 0,               // Custom
       },
     ],
   },
