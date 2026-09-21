@@ -25,9 +25,7 @@ export const botConfig = {
       {
         name: "Hood Rivals", // required by Discord API, not shown in the client
         state: "Hood Rivals Dicord",     // this is what people actually see
-        type: 1,               //static void UpdatePresence()
-{
-    DiscordRichPresence discordPresence;
+        type: 1,               // DiscordRichPresence discordPresence;
     memset(&discordPresence, 0, sizeof(discordPresence));
     discordPresence.state = "Playing Solo";
     discordPresence.details = "Competitive";
