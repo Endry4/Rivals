@@ -26,6 +26,7 @@ export const botConfig = {
         name: "Hood Rivals On Roblox", // required by Discord API, not shown in the client
         state: "Hood Rivals Dicord",     // this is what people actually see
         type: 1,               //
+      }
 }
       },
     ],
