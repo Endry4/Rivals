@@ -5,7 +5,7 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 import { BotConfig } from '../../config/bot.js';
 
-const ROB_COOLDOWN = BotConfig.economy?.cooldowns?.rob ?? 1 * 1 * 1 * 1;
+const ROB_COOLDOWN = BotConfig.economy?.cooldowns?.rob ?? 0 * 0 * 0 * 0;
 const BASE_ROB_SUCCESS_CHANCE = BotConfig.economy?.robSuccessRate ?? 0.5;
 const ROB_PERCENTAGE = 10.0;
 const FINE_PERCENTAGE = 0.1;
