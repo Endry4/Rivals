@@ -24,8 +24,8 @@ export const botConfig = {
     activities: [
       {
         name: "Hood Rivals", // required by Discord API, not shown in the client
-        state: "https://www.roblox.com/share?code=b915e3b80acba44ebb1888f6c204e00d&type=ExperienceDetails&stamp=1790029428370",     // this is what people actually see
-        type: 0,               // https://www.roblox.com/share?code=b915e3b80acba44ebb1888f6c204e00d&type=ExperienceDetails&stamp=1790029428370
+        state: "Hood Rivals Dicord",     // this is what people actually see
+        type: 1,               // Hood Rivals
       },
     ],
   },
