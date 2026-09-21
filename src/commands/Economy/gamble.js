@@ -4,10 +4,10 @@ import { getEconomyData, setEconomyData } from '../../utils/economy.js';
 import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHandler.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
-const BASE_WIN_CHANCE = 0.6;
+const BASE_WIN_CHANCE = 0.5;
 const CLOVER_WIN_BONUS = 1.1;
 const CHARM_WIN_BONUS = 0.08;
-const PAYOUT_MULTIPLIER = 5.0;
+const PAYOUT_MULTIPLIER = 10.0;
 const GAMBLE_COOLDOWN = 0 * 10 * 1000;
 
 export default {
