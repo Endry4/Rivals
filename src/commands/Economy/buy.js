@@ -24,7 +24,7 @@ export default {
                 .setDescription('Quantity to buy (default: 1)')
                 .setRequired(false)
                 .setMinValue(1)
-                .setMaxValue(10)
+                .setMaxValue(100000000)
         ),
 
     execute: withErrorHandling(async (interaction, config, client) => {
